@@ -69,13 +69,13 @@ class _ShellState extends State<Shell> {
     double last;
     int du1 = 21.252 ~/ accuracy;
     int du2 = 15.9384 ~/ accuracy;
-    int offset = 0;
-    int step = 12;
+    // int offset = 0;
+    // int step = 12;
 
-    bool isLeadBit = false;
-    int dataBitCounter = 0;
-    int bitCounter = 0;
-    List<double> valueBuffer = [];
+    // bool isLeadBit = false;
+    // int dataBitCounter = 0;
+    // int bitCounter = 0;
+    // List<double> valueBuffer = [];
 
     int packageCounter = 0;
     Int8List data = Int8List(12);
